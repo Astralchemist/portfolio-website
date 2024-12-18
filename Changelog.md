@@ -16,6 +16,7 @@
 - TypeScript support
 - SEO optimization
 
+
 ### Technical Features
 - React 18 with TypeScript
 - Tailwind CSS for styling
