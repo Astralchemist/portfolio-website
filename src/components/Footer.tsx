@@ -41,12 +41,12 @@ export function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-gray-400 text-sm">
-              <p>Kenyatta Ave</p>
+              <p>K Ave</p>
               <p>Suite 402</p>
               <p>Nairobi, NRB 00100</p>
-              <p>consulthasha9@gmail.com</p>
+              <p>consulthasha@gmail.com</p>
               <p>support@consulthasha.info</p>
-              <p>+254704326488</p>
+              <p>+2547012345678</p>
             </div>
             <div className="mt-4">
               <p className="text-gray-400 text-sm">

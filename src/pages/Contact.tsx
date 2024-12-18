@@ -47,7 +47,7 @@ export function Contact() {
                   <div className="ml-4">
                     <h3 className="text-white font-medium">Office Address</h3>
                     <p className="text-gray-400 mt-1">
-                      Kenyatta Ave
+                      K Ave
                       <br />
                       Suite 402
                       <br />
@@ -60,7 +60,7 @@ export function Contact() {
                   <Phone className="h-6 w-6 text-purple-400 mt-1" />
                   <div className="ml-4">
                     <h3 className="text-white font-medium">Phone</h3>
-                    <p className="text-gray-400 mt-1">+254704326488</p>
+                    <p className="text-gray-400 mt-1">+2547012345678</p>
                   </div>
                 </div>
 
@@ -69,7 +69,7 @@ export function Contact() {
                   <div className="ml-4">
                     <h3 className="text-white font-medium">Email</h3>
                     <p className="text-gray-400 mt-1">
-                      consulthasha9@gmail.com
+                      consulthasha@gmail.com
                       <br />
                       support@consulthasha.info
                     </p>
