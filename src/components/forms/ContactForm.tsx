@@ -3,6 +3,7 @@ import { FormInput } from '../FormInput';
 import { useSubmit } from '../../hooks/useSubmit';
 import { submitContactForm } from '../../lib/api/contact';
 import type { ContactFormData } from '../../types';
+import React from 'react';
 
 export function ContactForm() {
   const [formData, setFormData] = useState<ContactFormData>({

@@ -1,15 +1,27 @@
+// Import the necessary components and types
 import { Card } from '../ui/Card';
-import type { Service } from '../../types';
+import { LucideIcon } from 'lucide-react';  // Ensure to import the correct icon type
+import React from 'react';
 
+// Define the Service interface
+interface Service {
+  title: string;
+  description: string;
+  icon: LucideIcon;  // This makes sure icon is a valid React component
+  features: string[];
+}
+
+// ServiceCard Component
 interface ServiceCardProps {
   service: Service;
 }
 
 export function ServiceCard({ service }: ServiceCardProps) {
-  const Icon = service.icon;
-  
+  const Icon = service.icon;  // Assign the icon to a React component
+
   return (
     <Card>
+      {/* Now you can safely pass className to the icon */}
       <Icon className="h-12 w-12 text-purple-400 mb-4" />
       <h3 className="text-xl font-semibold text-white mb-3">
         {service.title}

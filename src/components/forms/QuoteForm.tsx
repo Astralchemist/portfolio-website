@@ -4,6 +4,7 @@ import { useSubmit } from '../../hooks/useSubmit';
 import { submitQuoteRequest } from '../../lib/api/quote';
 import { services } from '../../data/services';
 import type { QuoteFormData } from '../../types';
+import React from 'react';
 
 export function QuoteForm() {
   const [formData, setFormData] = useState<QuoteFormData>({

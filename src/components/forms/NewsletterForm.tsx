@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Mail } from 'lucide-react';
 import { useSubmit } from '../../hooks/useSubmit';
 import { subscribeToNewsletter } from '../../lib/api/newsletter';
+import React from 'react';
 
 export function NewsletterForm() {
   const [email, setEmail] = useState('');

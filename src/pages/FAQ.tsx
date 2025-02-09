@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { Card } from '../components/ui/Card';
 import { Container } from '../components/layout/Container';
+import React from 'react';
 
 const faqs = [
   {

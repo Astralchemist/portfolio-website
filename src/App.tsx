@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
-import { Home } from './pages/Home';
+import Home from './pages/Home';  // Default import for Home
 import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { FAQ } from './pages/FAQ';
 import { Quote } from './pages/Quote';
 import { Contact } from './pages/Contact';
 import { useTheme } from './hooks/useTheme';
+import React from 'react';
 
 function App() {
   // Initialize theme

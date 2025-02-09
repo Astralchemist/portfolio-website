@@ -1,7 +1,11 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",  // Enable JSX support for React
+    "moduleResolution": "node",  // Ensure proper module resolution
+    "strict": true,  // Optional: Enables strict type-checking options
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
 }

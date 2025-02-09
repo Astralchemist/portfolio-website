@@ -1,3 +1,4 @@
+import React from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { QuoteForm } from '../components/forms/QuoteForm';
 import { PageLayout } from '../components/layout/PageLayout';

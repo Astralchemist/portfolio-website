@@ -1,5 +1,6 @@
 import { Navbar } from '../Navbar';
 import { Footer } from '../Footer';
+import React from 'react';
 
 interface PageLayoutProps {
   children: React.ReactNode;
